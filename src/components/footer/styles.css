@@ -1,0 +1,14 @@
+footer {
+    background-color: var(--black);
+    padding: 1px;
+}
+
+footer p {
+    color: var(--white);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+footer b {
+    color: var(--pink);
+}

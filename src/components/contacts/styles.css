@@ -1,0 +1,13 @@
+.container-contacts {
+    padding: 213px;
+}
+
+img {
+    border-radius: 48%;
+    width: 187px;
+    height: 168px;
+}
+
+.contacts {
+    text-align: center;
+}
