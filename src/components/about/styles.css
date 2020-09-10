@@ -5,6 +5,10 @@
     justify-content: space-between;
 }
 
+.about-section {
+    margin-right: 25%;
+}
+
 .about-section h2 {
  color: var(--white);
  font-family: 'Kufam', cursive;
@@ -33,6 +37,7 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Merriweather', serif;
+    margin-bottom: 44px;
 }
 
 .content-right h2 {

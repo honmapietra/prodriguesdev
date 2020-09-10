@@ -19,9 +19,7 @@ const About = () => {
             <br />Children me laughing we prospect answered followed.
             <br />Children me laughing we prospect answered followed.
             </p>
-                <a className="link-curriculum" href="https://www.linkedin.com/in/pietratomords/">Veja meu currículo</a>
             </div>
-
             <div class="content-right">
                 <h2>SKILLS</h2>
                 <div class="dev-skills">
@@ -30,12 +28,7 @@ const About = () => {
                     <span>JAVASCRIPT •</span>
                     <span>REACT.JS</span>
                 </div>
-                <div className="social-contact">
-                    <h2>Fique a vontade para entrar em contato:</h2>
-                    <div className="social-contact-links">
-                        <p>Instagram</p>
-                    </div>
-                </div>
+                <a className="link-curriculum" href="https://drive.google.com/file/d/11gwlUUCKpZsltyY3s1nZQ_ATZJIn1pxE/view?usp=sharing" target="_blank" rel="noopener noreferrer" >VEJA MEU CURRICULO</a>
             </div>
         </div>
     )

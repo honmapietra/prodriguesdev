@@ -1,13 +1,17 @@
 .container-contacts {
     padding: 213px;
+    background-color: var(--black);
 }
 
-img {
-    border-radius: 48%;
-    width: 187px;
-    height: 168px;
+.social-contact-links {
+    display: flex;
+    justify-content: space-between;
 }
 
-.contacts {
-    text-align: center;
+.social-contact-links a {
+    color: var(--white);
+}
+
+.social-contact-links img {
+    filter: invert(1);
 }
