@@ -16,6 +16,12 @@ header ul {
     font-family: 'Merriweather', serif;
 }
 
+@media (max-width: 500px) {
+    header ul {
+        justify-content: space-around;
+    }
+}
+
 header li {
     margin-left: 10px;
     color: var(--white);

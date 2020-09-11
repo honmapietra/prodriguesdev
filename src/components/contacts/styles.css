@@ -3,15 +3,32 @@
     background-color: var(--black);
 }
 
+@media (max-width: 500px) {
+    .container-contacts {
+        padding: 58px;
+    }
+}
+
 .social-contact-links {
     display: flex;
     justify-content: space-between;
 }
 
-.social-contact-links a {
-    color: var(--white);
-}
 
 .social-contact-links img {
     filter: invert(1);
+}
+
+@media (max-width: 800px) {
+    .social-contact-links  {
+        display: grid;
+        margin-left: 105px;
+    }
+}
+
+@media (max-width: 500px) {
+    .social-contact-links  {
+        display: grid;
+        margin-left: 105px;
+    }
 }

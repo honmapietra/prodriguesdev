@@ -13,6 +13,18 @@
     font-family: 'Kufam', cursive;
 }
 
+    @media (max-width: 800px) {
+        .intro h2 {
+            font-size: 83%;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .intro {
+            padding: 151px;
+        }
+    }
+
 .intro h3 {
     color: var(--pink);
 }
@@ -27,11 +39,26 @@ button {
   border: 2px solid var(--white);
   transition-duration: 0.4s;
   border-radius: 26px;
-    padding: 12px;
+  padding: 12px;
+  cursor: pointer;
 }
 
+@media (max-width: 800px) {
+    button {
+        font-size: 75%;
+    }
+}
+
+@media (max-width: 500px) {
+    button {
+        font-size: 10px;
+    }
+}
+
+
 button:hover {
-    background-color: var(--pink);
-    color: var(--white);
+    background-color: var(--black);
+    color: var(--pink);
+    border-color: var(--pink);
 }
 

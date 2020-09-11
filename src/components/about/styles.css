@@ -5,6 +5,18 @@
     justify-content: space-between;
 }
 
+@media (max-width: 800px) {
+    .about-container {
+        display: grid;
+    }
+}
+
+@media (max-width: 500px) {
+    .about-container {
+        padding: 40px;
+    }
+}
+
 .about-section {
     margin-right: 25%;
 }
@@ -38,6 +50,12 @@
     justify-content: space-between;
     font-family: 'Merriweather', serif;
     margin-bottom: 44px;
+}
+
+@media (max-width: 500px) {
+    .dev-skills {
+        width: 84%;
+    }
 }
 
 .content-right h2 {
